@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDI JUN 24</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "nunito", sans-serif;
+        font-size: 16px;
+        color: black;
+      }
+      #sidebar {
+        display: block;
+        width: 150px;
+        height: 100%;
+        position: fixed;
+        padding: 5px;
+        background-color: rgb(245, 245, 245);
+      }
+      #sidenavlogo {
+        display: block;
+        width: 100px;
+        margin: auto;
+        padding: 0px;
+      }
+      #sidenav {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .sidenavbtn {
+        display: block;
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        border-radius: 10px;
+      }
+      .sidenavbtn:hover {
+        background-color: #0325bd;
+        color: white;
+      }
+      #mainarea {
+        display: block;
+        margin-left: 170px;
+      }
+      .widget {
+        display: inline-block;
+        width: 300px;
+        margin-right: 10px;
+        padding: 5px;
+        background-color: rgb(229, 228, 253);
+        border-radius: 10px;
+        animation: slideUp 0.5s ease-in-out;
+      }
+      /* slide up animation for the widget */
+      @keyframes slideUp {
+        0% {
+          margin-top: 100px;
+          opacity: 0;
+        }
+        50%{
+          opacity: 0.2;
+        }
+        100% {
+          margin-top: 10px;
+          opacity: 1;
+        }
+      }
+      .widget img {
+        display: block;
+        width: 50px;
+        margin: 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+      }
+      .widget h5 {
+        display: block;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+      }
+      .widget span {
+        display: inline-block;
+        width: 40%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="sidenavheader">
+        <img
+          src="https://static.wixstatic.com/media/8b8f2d_46f5f8aaf3ad4e93b98f0e8a390e19e8~mv2.png/v1/fill/w_105,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Overlay%20Dark%20shadowed%20compressed.png"
+          alt=""
+          id="sidenavlogo"
+        />
+      </div>
+      <div id="sidenav">
+        <a href="./index.html" class="sidenavbtn"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-house-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"
+            />
+            <path
+              d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"
+            />
+          </svg>
+          Dashboard</a
+        >
+        <a href="./accounts.php" class="sidenavbtn">Accounts</a>
+        <a href="./invest.php" class="sidenavbtn">Invest</a>
+        <a href="./activity.php" class="sidenavbtn">Activity</a>
+        <a href="./settings.php" class="sidenavbtn">Settings</a>
+        <a href="./logout.php" class="sidenavbtn">Logout</a>
+      </div>
+    </div>
+    <div id="mainarea">
+      <di id="header">Hello</di[-ṣ>
+      <div id="workarea">
+        <div class="widget">
+      
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
